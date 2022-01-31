@@ -1,0 +1,41 @@
+//조건문 : else
+
+/*if만으로는 좀 더 복잡한 상황을 처리하는데 부족하다. 
+ 아래의 그림처럼 if-else절은 if 절의 값이 true일 때 then절이 실행되고,
+ false일 때 else절이 실행된다.
+ 
+ if(true false){
+ 
+} else{
+}
+ 
+*/
+
+package org.opentutorials.javatutorials.condition;
+
+public class Condition3Demo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//아래 예제를 보자. 결과는 1이다.
+		
+		if (true) {
+            System.out.println(1);
+        } else {
+            System.out.println(2);
+        }
+		
+		/*
+		  다음 예제의 결과는 2다. 		 
+		 */
+		if(false){
+		    System.out.println(1);
+		} else {
+		    System.out.println(2);
+		}
+		
+		
+	}
+
+}
