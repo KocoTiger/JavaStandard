@@ -13,18 +13,27 @@
 
 package BitCamp_Code_20220207;
 
+import java.util.Scanner;
+
 public class BitCampComputer00_실습과제01_1숙제 {
 
+	//main metood
 	public static void main(String[] args) {
-		String name = "홍길동";
-		String hp = "011-111-1111";
+		// TODO Auto-generated method stub
 		
-		System.out.println("나의 이름은 "+name+"입니다.");
+		String name = args[0];
+		String hp = args[1];
 		
-		System.out.println(name+"씨의 [hp]는"+hp);
+		System.out.println("java Test1");		
+//		Scanner sc1 = new Scanner(System.in);
+//		Scanner sc2 = new Scanner(System.in);	
+//		
+//		name = sc1.nextLine();
+//		hp = sc2.nextLine();
 		
+		System.out.println("나의 이름은\""+name+ "\"입니다.");
+		System.out.println("\""+name+"씨의 [hp]는"+"\""+hp+"\"입니다.");
 		
+	}//end main
 
-	}
-
-}
+}//end class
