@@ -1,4 +1,3 @@
-
 //[2] 두수를 입력 받고 두사이의 값의 합을 구하기
 //	
 //	실행예> java Example3 1 10
@@ -12,13 +11,35 @@
 
 class  Example3 {
 	public static void main(String[] args) {
-			
+
+//[Examp3 1 10]			
 			int sum = 0;
 
-			for(int i=1; i <=10; i++ ){
+				for(int i=1; i <=10; i++ ){
 					sum += i;
-			}
-			System.out.println("1에서 10의 합은 "+sum+"입니다.");
+				}
+					System.out.println("1에서 10의 합은 "+sum+"입니다.");
 
-	}
-}
+//[Examp3 10 1]	
+//			int sum = 0;
+//
+//				for(int i=10; i >=1; i-- ){
+//					sum += i;
+//				}
+//					System.out.println("10에서 1의 합은 "+sum+"입니다.");
+
+
+//[Examp3 10 10]	
+//			int sum = 0;
+//
+//				for(int i=10; i <=10 && i >=10; i++){
+//					sum += i;
+//				}
+//					System.out.println("10에서 10의 합은 "+sum+"입니다.");
+
+
+
+
+
+	}//end of main
+}//end of class

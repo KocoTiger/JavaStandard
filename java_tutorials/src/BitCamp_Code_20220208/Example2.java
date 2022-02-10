@@ -7,7 +7,6 @@
 		5단을 출력합니다.
 		1*5 = 5
 		2*5 = 10.....
-
  */
 
 
@@ -18,22 +17,30 @@ class Example2{
 		
 		int a = Integer.parseInt(args[0]);
 		
-
+//[나의 버전1]
 		do{ 
+
 		System.out.println("숫자를 입력하여 주세요(1~9)>");
 		System.out.println("주의: 0이하, 10이상의 수를 넣을 시, 미작동");
-		}
+
+		}//end of do
+
 		while(0>=a && a>=10);
 		
 		if(a>=1 && 10>a){
 				System.out.println(a+" 단을 출력합니다.");
-		}
+
+					for(int j=1; j<10; j++)
+					System.out.println(a+"*"+j+" = "+a*j);
+
+		}//end of for a
 
 		if(a>=1 && 10>a){
 					for(int j=1; j<10; j++)
 					System.out.println(a+"*"+j+" = "+a*j);
 		}
+//[pass]
 
-		
-	}
-}
+
+	}//end of main
+}//end of class
